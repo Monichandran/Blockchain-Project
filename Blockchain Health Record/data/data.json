@@ -1,0 +1,47 @@
+{
+  "users": {
+    "1": {
+      "address": "0xa88274694029ef5cf0915c17918c756f2d4c1c58",
+      "role": "doctor",
+      "id": 1,
+      "createdAt": "2025-04-27T16:33:15.529Z"
+    },
+    "2": {
+      "address": "0xe4e2766e8c72301d0945d3f0177d288fe4c39d53",
+      "role": "patient",
+      "id": 2,
+      "createdAt": "2025-04-27T16:33:43.207Z"
+    },
+    "3": {
+      "address": "0x76686fff4483f57b635fc185090ad5a1b65c367a",
+      "role": "patient",
+      "id": 3,
+      "createdAt": "2025-05-15T13:47:08.077Z"
+    }
+  },
+  "medicalRecords": {
+    "1": {
+      "title": "test1",
+      "recordType": "imaging",
+      "recordDate": "2025-04-17",
+      "patientAddress": "0xe4e2766e8c72301d0945d3f0177d288fe4c39d53",
+      "filePath": "C:\\Users\\USER\\Desktop\\BlockchainHealthRecord\\BlockchainHealthRecord (1)\\BlockchainHealthRecord\\uploads\\file-1745774206964-56230853.png",
+      "id": 1,
+      "fileHash": "d885c259ac49b5b1bb2666f8c57f8d53abe54de4a819b4692d6a3723d4634bc5",
+      "transactionHash": "0xeabbe2dee3e76b4607dd15ca4c3ff731c81f041c709f5631ae07b0a788ae1604",
+      "createdAt": "2025-04-27T17:16:47.006Z"
+    }
+  },
+  "accessPermissions": {
+    "1": {
+      "patientAddress": "0xe4e2766e8c72301d0945d3f0177d288fe4c39d53",
+      "doctorAddress": "0xA88274694029ef5cF0915c17918c756F2d4C1c58",
+      "recordIds": [
+        1
+      ],
+      "duration": "1-day",
+      "id": 1,
+      "createdAt": "2025-04-27T17:17:41.877Z"
+    }
+  }
+}
